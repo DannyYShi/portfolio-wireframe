@@ -13,7 +13,10 @@
   nav,
   footer {
     padding: 1% 0;
-    background-color: gray;
+    background-color: cadetblue;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 0.75em;
   }
   
   nav {
@@ -26,7 +29,27 @@
   
   .hero {
      padding: 12% 0;
-     background-color: #bbb;
+     background-color: white;
+  }
+  
+  #im-danny {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2.5em;
+    margin-bottom: 5px;
+  }
+  
+  #title-description {
+    font-family: 'Pavanam', sans-serif;
+    font-weight: 100;
+    font-size: 0.75em;
+    margin-top: 5px;
+  }
+  
+  .section-title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
   }
   
   #portfolio {
@@ -39,4 +62,14 @@
     min-height: 200px;
     padding: 6% 0;
     background-color: #ddd;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  #list {
+    font-size: 0.98em;
+  }
+  
+  #things {
+    padding-left: 0;
+    list-style: none;
   }
