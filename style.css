@@ -73,3 +73,107 @@
     padding-left: 0;
     list-style: none;
   }
+  
+  /* for tablets */
+  @media only screen and (min-width: 600px){
+  
+  #im-danny {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 3.5em;
+    margin-bottom: 5px;
+  }
+  
+  #title-description {
+    font-family: 'Pavanam', sans-serif;
+    font-weight: 100;
+    font-size: 1em;
+    margin-top: 5px;
+  }
+  
+  .section-title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  
+  #portfolio {
+    min-height: 200px;
+    padding: 6% 0;
+    background-color: #ccc;
+  }
+  
+  #about-me {
+    min-height: 200px;
+    padding: 6% 0;
+    background-color: #ddd;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  #list {
+    font-size: 1.3em;
+  }
+  
+  #things {
+    padding-left: 0;
+    list-style: none;
+    font-size: 1.3em
+  }
+  
+  nav, footer{
+    font-size: 0.9em;
+  }
+  }
+  
+  /* for desktops */
+  @media only screen and (min-width: 768px){
+  
+  #im-danny {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 4.3em;
+    margin-bottom: 5px;
+  }
+  
+  #title-description {
+    font-family: 'Pavanam', sans-serif;
+    font-weight: 100;
+    font-size: 1em;
+    margin-top: 5px;
+  }
+  
+  .section-title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+  }
+  
+  #portfolio {
+    min-height: 200px;
+    padding: 6% 0;
+    background-color: #ccc;
+  }
+  
+  #about-me {
+    min-height: 200px;
+    padding: 6% 0;
+    background-color: #ddd;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  #list {
+    font-size: 1.7em;
+  }
+  
+  #things {
+    padding-left: 0;
+    list-style: none;
+    font-size: 1.5em
+  }
+  
+  nav, footer{
+    font-size: 1.1em;
+  }
+  }
