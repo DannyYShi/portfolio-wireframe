@@ -10,10 +10,11 @@
     line-height: 1.5;
   }
   
+  /* stylings for nav bar & footer */
   nav,
   footer {
     padding: 1% 0;
-    background-color: cadetblue;
+    background-color: #8da4c5fb;
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     font-size: 0.75em;
@@ -25,7 +26,21 @@
     left: 0;
     right: 0;
     z-index: 10;
+    padding: 12px;
   }
+  
+  nav a, footer a {
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  a:hover {
+    color: white;
+  }
+  
+  /* stylings for headline */
   
   .hero {
      padding: 12% 0;
@@ -47,21 +62,24 @@
     margin-top: 5px;
   }
   
+  /* stylings for general sections */
   .section-title {
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
+    text-decoration: underline;
   }
   
   #portfolio {
     min-height: 200px;
     padding: 6% 0;
-    background-color: #ccc;
+    background-color: #c7d5d1;
   }
   
+  /* stlyings for about me section */
   #about-me {
     min-height: 200px;
     padding: 6% 0;
-    background-color: #ddd;
+    background-color: #f0f0f2;
     font-family: 'Oswald', sans-serif;
   }
   
@@ -101,13 +119,13 @@
   #portfolio {
     min-height: 200px;
     padding: 6% 0;
-    background-color: #ccc;
+    background-color: #c7d5d1;
   }
   
   #about-me {
     min-height: 200px;
     padding: 6% 0;
-    background-color: #ddd;
+    background-color: #f0f0f2;
     font-family: 'Oswald', sans-serif;
   }
   
@@ -153,13 +171,13 @@
   #portfolio {
     min-height: 200px;
     padding: 6% 0;
-    background-color: #ccc;
+    background-color: #c7d5d1;
   }
   
   #about-me {
     min-height: 200px;
     padding: 6% 0;
-    background-color: #ddd;
+    background-color: #f0f0f2;
     font-family: 'Oswald', sans-serif;
   }
   

@@ -5,21 +5,21 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>repl.it</title>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Pavanam&family=Quicksand:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Pavanam&family=Quicksand:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap"
+	 rel="stylesheet">
 	<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 	<!-- make navbar -->
 	<nav role='navigation' class='navbar'>
-		<a href='#top'>dannyshi</a>
-		<a href='#portfolio'>Portfolio</a>
-		<a href='#about'>About</a>
+		<a id='logo' href='#top'>DANNYSHI</a>
+		<a id='portfolio-nav' href='#portfolio'>PORTFOLIO</a>
+		<a id='about-nav' href='#about-me'>ABOUT ME</a>
 	</nav>
-	
-  <!-- main -->
-  <main>
+
+	<!-- main -->
+	<main>
 
 		<!-- code to organize the top section of my portfolio -->
 		<section id='top'>
@@ -36,25 +36,40 @@
 
 			<!-- Portfolio section -->
 			<section id='portfolio'>
-				<h1 class='section-title'>My work</h1>
+				<h1 class='section-title'>Portfolio</h1>
+        <div class='project'>
+          <img src='' class='image'>
+          <h5>Built using: HTML, CSS, JavaScript, jQuery</h5>
+          <p>Test your basic music theory knowledge using this quiz. Alternatively titled, "Are you smarter than a 5th grade band student?"</p>
+          <a class='project-link' href='https://github.com/danny-shi/quiz-app'>GitHub</a>
+          <a class='project-link' href='https://danny-shi.github.io/quiz-app/'>Live</a>
+        </div>
+
 			</section>
 
 			<!-- About me section -->
 			<section id='about-me'>
 				<h1 class='section-title'>About me</h1>
-        <h2 id='list'>I'm a kid from the Bay Area who:</h2>
-        <ul id='things'>
-          <li>Loves sports,</li>
-          <li>boba,</li>
-          <li>is an Apple fanboy,</li>
-          <li>has watched too much Gordon Ramsay,</li>
-          <li>and is passionate about web development.</li>
+				<h2 id='list'>I'm a kid from the Bay Area who:</h2>
+				<ul id='things'>
+					<li>Loves sports,</li>
+					<li>boba,</li>
+					<li>is an Apple fanboy,</li>
+					<li>has watched too much Gordon Ramsay,</li>
+					<li>and is passionate about web development.</li>
 			</section>
 
 	</main>
-  <footer role='content-info'>Footer</footer>
+
+  <!-- footer -->
+	<footer role='content-info'>
+  <a id='email' href='mailto:dannyshi.sr@gmail.com' target='_blank'>email</a>
+  <a id='GitHub' href='https://github.com/danny-shi' target='_blank'>GitHub</a>
+  <a id='LinkedIn' href='https://www.linkedin.com/in/danny-shi/' target='_blank'>LinkedIn</a>
+	</footer>
 
 	<script src="script.js">
+
 	</script>
 </body>
 
