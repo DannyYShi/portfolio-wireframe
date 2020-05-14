@@ -8,6 +8,7 @@
     font-size: 20px;
     text-align: center;
     line-height: 1.5;
+    margin: 0;
   }
   
   /* stylings for nav bar & footer */
@@ -43,8 +44,8 @@
   /* stylings for headline */
   
   .hero {
-     padding: 12% 0;
-     background-color: white;
+    padding: 12% 0;
+    background-color: white;
   }
   
   #im-danny {
@@ -69,10 +70,23 @@
     text-decoration: underline;
   }
   
+  /* stylings portfolio section */ 
+  
   #portfolio {
     min-height: 200px;
     padding: 6% 0;
     background-color: #c7d5d1;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  .image {
+    max-width: 80%;
+    height: auto;
+  }
+  
+  .project-link {
+    margin-left: 10px;
+    margin-right: 15px;
   }
   
   /* stlyings for about me section */
