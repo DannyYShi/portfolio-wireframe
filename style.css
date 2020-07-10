@@ -8,7 +8,6 @@ body {
   font-size: 20px;
   text-align: center;
   line-height: 1.5;
-  margin: 0;
 }
 
 /* stylings for nav bar & footer */
@@ -79,17 +78,13 @@ a:hover {
   font-family: 'Oswald', sans-serif;
 }
 
-#portfolio div{
+.project{
   margin-bottom: 5em;
 }
 
 .image {
   max-width: 80%;
   height: auto;
-}
-
-.project{
-  margin-bottom: 5em;
 }
 
 .project-link {
