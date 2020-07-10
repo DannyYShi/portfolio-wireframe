@@ -1,215 +1,215 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: "Open Sans",
-    sans-serif; 
-    font-size: 20px;
-    text-align: center;
-    line-height: 1.5;
-    margin: 0;
-  }
-  
-  /* stylings for nav bar & footer */
-  nav,
-  footer {
-    padding: 1% 0;
-    background-color: #8da4c5fb;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 100;
-    font-size: 0.75em;
-  }
-  
-  nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
-    padding: 12px;
-  }
-  
-  nav a, footer a {
-    text-decoration: none;
-    color: black;
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-  
-  a:hover {
-    color: white;
-  }
-  
-  /* stylings for headline */
-  
-  .hero {
-    padding: 12% 0;
-    background-color: white;
-  }
-  
-  #im-danny {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 2.5em;
-    margin-bottom: 5px;
-  }
-  
-  #title-description {
-    font-family: 'Pavanam', sans-serif;
-    font-weight: 100;
-    font-size: 0.75em;
-    margin-top: 5px;
-  }
-  
-  /* stylings for general sections */
-  .section-title {
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  
-  /* stylings portfolio section */ 
-  
-  #portfolio {
-    min-height: 200px;
-    padding: 6% 0;
-    background-color: #c7d5d1;
-    font-family: 'Oswald', sans-serif;
-  }
-  
-  .image {
-    max-width: 80%;
-    height: auto;
-  }
-  
-  .project-link {
-    margin-left: 10px;
-    margin-right: 15px;
-  }
+  box-sizing: border-box;
+}
 
-  .project {
-    margin-bottom: 5em;
-  }
-  
-  /* stlyings for about me section */
-  #about-me {
-    min-height: 200px;
-    padding: 6% 0;
-    background-color: #f0f0f2;
-    font-family: 'Oswald', sans-serif;
-  }
-  
-  #list {
-    font-size: 0.98em;
-  }
-  
-  #things {
-    padding-left: 0;
-    list-style: none;
-  }
-  
-  /* for tablets */
-  @media only screen and (min-width: 600px){
-  
-  #im-danny {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 3.5em;
-    margin-bottom: 5px;
-  }
-  
-  #title-description {
-    font-family: 'Pavanam', sans-serif;
-    font-weight: 100;
-    font-size: 1em;
-    margin-top: 5px;
-  }
-  
-  .section-title {
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;
-    font-size: 1.5em;
-  }
-  
-  #portfolio {
-    min-height: 200px;
-    padding: 6% 0;
-    background-color: #c7d5d1;
-  }
-  
-  #about-me {
-    min-height: 200px;
-    padding: 6% 0;
-    background-color: #f0f0f2;
-    font-family: 'Oswald', sans-serif;
-  }
-  
-  #list {
-    font-size: 1.3em;
-  }
-  
-  #things {
-    padding-left: 0;
-    list-style: none;
-    font-size: 1.3em
-  }
-  
-  nav, footer{
-    font-size: 0.9em;
-  }
-  }
-  
-  /* for desktops */
-  @media only screen and (min-width: 768px){
-  
-  #im-danny {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 4.3em;
-    margin-bottom: 5px;
-  }
-  
-  #title-description {
-    font-family: 'Pavanam', sans-serif;
-    font-weight: 100;
-    font-size: 1em;
-    margin-top: 5px;
-  }
-  
-  .section-title {
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;
-    font-size: 2em;
-  }
-  
-  #portfolio {
-    min-height: 200px;
-    padding: 6% 0;
-    background-color: #c7d5d1;
-  }
-  
-  #about-me {
-    min-height: 200px;
-    padding: 6% 0;
-    background-color: #f0f0f2;
-    font-family: 'Oswald', sans-serif;
-  }
-  
-  #list {
-    font-size: 1.7em;
-  }
-  
-  #things {
-    padding-left: 0;
-    list-style: none;
-    font-size: 1.5em
-  }
-  
-  nav, footer{
-    font-size: 1.1em;
-  }
-  }
+body {
+  font-family: "Open Sans",
+  sans-serif; 
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* stylings for nav bar & footer */
+nav,
+footer {
+  padding: 1% 0;
+  background-color: #8da4c5fb;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 0.75em;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  padding: 12px;
+}
+
+nav a, footer a {
+  text-decoration: none;
+  color: black;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+a:hover {
+  color: white;
+}
+
+/* stylings for headline */
+
+.hero {
+  padding: 12% 0;
+  background-color: white;
+}
+
+#im-danny {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 2.5em;
+  margin-bottom: 5px;
+}
+
+#title-description {
+  font-family: 'Pavanam', sans-serif;
+  font-weight: 100;
+  font-size: 0.75em;
+  margin-top: 5px;
+}
+
+/* stylings for general sections */
+.section-title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* stylings portfolio section */ 
+
+#portfolio {
+  min-height: 200px;
+  padding: 6% 0;
+  background-color: #c7d5d1;
+  font-family: 'Oswald', sans-serif;
+}
+
+.image {
+  max-width: 80%;
+  height: auto;
+}
+
+.project{
+  margin-bottom: 5em;
+}
+
+.project-link {
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+/* stlyings for about me section */
+#about-me {
+  min-height: 200px;
+  padding: 6% 0;
+  background-color: #f0f0f2;
+  font-family: 'Oswald', sans-serif;
+}
+
+#list {
+  font-size: 0.98em;
+}
+
+#things {
+  padding-left: 0;
+  list-style: none;
+}
+
+/* for tablets */
+@media only screen and (min-width: 600px){
+
+#im-danny {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 3.5em;
+  margin-bottom: 5px;
+}
+
+#title-description {
+  font-family: 'Pavanam', sans-serif;
+  font-weight: 100;
+  font-size: 1em;
+  margin-top: 5px;
+}
+
+.section-title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#portfolio {
+  min-height: 200px;
+  padding: 6% 0;
+  background-color: #c7d5d1;
+}
+
+#about-me {
+  min-height: 200px;
+  padding: 6% 0;
+  background-color: #f0f0f2;
+  font-family: 'Oswald', sans-serif;
+}
+
+#list {
+  font-size: 1.3em;
+}
+
+#things {
+  padding-left: 0;
+  list-style: none;
+  font-size: 1.3em
+}
+
+nav, footer{
+  font-size: 0.9em;
+}
+}
+
+/* for desktops */
+@media only screen and (min-width: 768px){
+
+#im-danny {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 4.3em;
+  margin-bottom: 5px;
+}
+
+#title-description {
+  font-family: 'Pavanam', sans-serif;
+  font-weight: 100;
+  font-size: 1em;
+  margin-top: 5px;
+}
+
+.section-title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+#portfolio {
+  min-height: 200px;
+  padding: 6% 0;
+  background-color: #c7d5d1;
+}
+
+#about-me {
+  min-height: 200px;
+  padding: 6% 0;
+  background-color: #f0f0f2;
+  font-family: 'Oswald', sans-serif;
+}
+
+#list {
+  font-size: 1.7em;
+}
+
+#things {
+  padding-left: 0;
+  list-style: none;
+  font-size: 1.5em
+}
+
+nav, footer{
+  font-size: 1.1em;
+}
+}
