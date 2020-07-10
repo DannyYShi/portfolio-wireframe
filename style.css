@@ -88,6 +88,10 @@
     margin-left: 10px;
     margin-right: 15px;
   }
+
+  #project {
+    margin-bottom: 10px;
+  }
   
   /* stlyings for about me section */
   #about-me {
