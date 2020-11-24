@@ -5,8 +5,9 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Danny's Portfolio site</title>
-	<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Pavanam&family=Quicksand:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap"
-	 rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Pavanam&family=Quicksand:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap"
+		rel="stylesheet">
 	<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -21,71 +22,97 @@
 	<!-- main -->
 	<main>
 
-			<!-- Title and headline -->
-			<section class='hero'>
-				<div id='title'>
-					<h2 id='im-danny'>Hi, I'm Danny</h2>
-						<h4 id='title-description'>a fullstack web development student at Bloc.
-					</h4>
-				</div>
-			</section>
+		<!-- Title and headline -->
+		<section class='hero'>
+			<div id='title'>
+				<h2 id='im-danny'>Hi, I'm Danny</h2>
+				<h4 id='title-description'>a fullstack web development student at Bloc.
+				</h4>
+			</div>
+		</section>
 
-			<!-- Portfolio section -->
-			<section id='portfolio'>
-				<h1 class='section-title'>Portfolio</h1>
-				
-				<div class='project'>
-					<img src='https://i.ibb.co/QHc9JmK/quiz-app-screenshot.png' alt='quiz-app screenshot' class='image'>
-					<h3 class='project-title'>Music Theory Quiz App</h3>
-					<h5>Built using: HTML, CSS, JavaScript, jQuery</h5>
-					<p>Test your basic music theory knowledge using this quiz.</p> 
-          			<p>This app asks you five basic music theory questions and keeps track of your score throughout, </p>
-          			<p>before giving you a final score and some feedback.</p>
-          			<p>This app can alternatively be titled, "Are you smarter than a 5th grade band student?"</p>
-          			<a class='project-link' href='https://github.com/danny-shi/quiz-app' target='_blank'>GitHub</a>
-          			<a class='project-link' href='https://danny-shi.github.io/quiz-app/' target='_blank'>Live</a>
-				</div>
-				
-				<div class='project'>
-					<img src='https://i.ibb.co/q9KbLRz/Boba-Finder-App-screenshot.png' alt='bobafinder-app screenshot' class='image'>
-					<h3 class='project-title'>Boba Finder App</h3>
-					<h5>Built using: HTML, CSS, JavaScript, jQuery</h5>
-					<p>Wondering where you can find boba in the city that you are in?</p> 
-					<p>This app asks you for the name of a city and makes an API call to the Google Maps Places API.</p>
-					<p>It will then return a list of boba shops in that city</p>
-					<p>along with it's Google rating out of 5 and address.</p>
-					<a class='project-link' href='https://github.com/danny-shi/boba-finder' target='_blank'>GitHub</a>
-					<a class='project-link' href='https://danny-shi.github.io/boba-finder' target='_blank'>Live</a>
-				</div>
+		<!-- Portfolio section -->
+		<section id='portfolio'>
+			<h1 class='section-title'>Portfolio</h1>
 
-			</section>
+			<div class='project'>
+				<img src='/images/Jobseek.gif' alt='jobseek-app screenshot' class='image'>
+				<h3 class='project-title'>Jobseek</h3>
+				<h5>Built using: React, PostgreSQL, Express, Node.js, react-beautiful-dnd, CSS</h5>
+				<p>Keep track of your job applications on this kanban-inspired dashboard.</p>
+				<p>With Jobseek, users can create and delete cards that represent job applications.</p>
+				<p>Each card keeps track of some basic details tied to each application.</p>
+				<p>The drag and drop feature serves to provide a smooth and fun user experience!</p>
+				<a class='project-link' href='https://github.com/danny-shi/jobseek' target='_blank'>GitHub</a>
+				<a class='project-link' href='https://jobseek.vercel.app/' target='_blank'>Live</a>
+			</div>
 
-			<!-- About me section -->
-			<section id='about-me'>
-				<h1 class='section-title'>About me</h1>
-				<h2 id='list'>I'm a kid from the Bay Area who:</h2>
-				<ul id='things'>
-					<li>Loves sports,</li>
-					<li>boba,</li>
-					<li>is an Apple fanboy,</li>
-					<li>has watched too much Gordon Ramsay,</li>
-                    <li>and is passionate about web development.</li>
-                    <li>I am looking forward to joining a team of passionate developers.</li>
-                </ul>
-            </section>
-            
+			<div class='project'>
+				<img src='/images/visions.demo.gif' alt='visions-app screenshot' class='image'>
+				<h3 class='project-title'>Visions</h3>
+				<h5>Built using: React, PostgreSQL, Express, Node.js, EmailJS, CSS</h5>
+				<p>Visions is an ecommerce website that allows you to browse professional photos and place and order for
+					them.</p>
+				<p>Users can add and remove items from cart, change the quantity of an item in cart, and place and order
+					for those items. </p>
+				<p>Upon placing an order, an email will be sent to the user with the order details.</p>
+				<a class='project-link' href='https://github.com/danny-shi/visions' target='_blank'>GitHub</a>
+				<a class='project-link' href='https://visions-iota.vercel.app/' target='_blank'>Live</a>
+			</div>
+
+			<div class='project'>
+				<img src='https://i.ibb.co/QHc9JmK/quiz-app-screenshot.png' alt='quiz-app screenshot' class='image'>
+				<h3 class='project-title'>Music Theory Quiz App</h3>
+				<h5>Built using: HTML, CSS, JavaScript, jQuery</h5>
+				<p>Test your basic music theory knowledge using this quiz.</p>
+				<p>This app asks you five basic music theory questions and keeps track of your score throughout, </p>
+				<p>before giving you a final score and some feedback.</p>
+				<p>This app can alternatively be titled, "Are you smarter than a 5th grade band student?"</p>
+				<a class='project-link' href='https://github.com/danny-shi/quiz-app' target='_blank'>GitHub</a>
+				<a class='project-link' href='https://danny-shi.github.io/quiz-app/' target='_blank'>Live</a>
+			</div>
+
+			<div class='project'>
+				<img src='https://i.ibb.co/q9KbLRz/Boba-Finder-App-screenshot.png' alt='bobafinder-app screenshot'
+					class='image'>
+				<h3 class='project-title'>Boba Finder App</h3>
+				<h5>Built using: HTML, CSS, JavaScript, jQuery</h5>
+				<p>Wondering where you can find boba in the city that you are in?</p>
+				<p>This app asks you for the name of a city and makes an API call to the Google Maps Places API.</p>
+				<p>It will then return a list of boba shops in that city</p>
+				<p>along with it's Google rating out of 5 and address.</p>
+				<a class='project-link' href='https://github.com/danny-shi/boba-finder' target='_blank'>GitHub</a>
+				<a class='project-link' href='https://danny-shi.github.io/boba-finder' target='_blank'>Live</a>
+			</div>
+
+		</section>
+
+		<!-- About me section -->
+		<section id='about-me'>
+			<h1 class='section-title'>About me</h1>
+			<h2 id='list'>I'm a kid from the Bay Area who:</h2>
+			<ul id='things'>
+				<li>Loves sports,</li>
+				<li>boba,</li>
+				<li>is an Apple fanboy,</li>
+				<li>has watched too much Gordon Ramsay,</li>
+				<li>and is passionate about web development.</li>
+				<li>I am looking forward to joining a team of passionate developers.</li>
+			</ul>
+		</section>
+
 	</main>
 
-  <!-- footer -->
+	<!-- footer -->
 	<footer>
-  <a id='email' href='mailto:dannyshi.sr@gmail.com' target='_blank'>email</a>
-  <a id='GitHub' href='https://github.com/danny-shi' target='_blank'>GitHub</a>
-  <a id='LinkedIn' href='https://www.linkedin.com/in/danny-shi/' target='_blank'>LinkedIn</a>
+		<a id='email' href='mailto:dannyshi.sr@gmail.com' target='_blank'>email</a>
+		<a id='GitHub' href='https://github.com/danny-shi' target='_blank'>GitHub</a>
+		<a id='LinkedIn' href='https://www.linkedin.com/in/danny-shi/' target='_blank'>LinkedIn</a>
 	</footer>
 
-	
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	<script src="script.js"></script>
 </body>
 
